@@ -54,7 +54,6 @@ function App() {
           <StackSidebar stack={stack} onRemove={removeTechnology} onRemoveAll={removeAll} />
         </div>
       </main>
-      <section id="projects" className="project-strip"><div className="page-width"><h2>Build something <span>remarkable.</span></h2><p>Choose your tools, find your flow, and start shipping your next idea.</p></div></section>
       <Footer />
       <ToastContainer theme="dark" position="bottom-right" autoClose={2500} toastClassName="!bg-surface !text-white" />
     </div>
