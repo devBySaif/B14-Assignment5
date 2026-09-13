@@ -1,12 +1,14 @@
-import { BriefcaseBusiness, GitBranch, Sparkles } from 'lucide-react'
+import logoText from '../assets/logo-text.png'
 
 export function Footer() {
   return (
-    <footer id="about" className="border-t border-white/10 bg-black/20">
-      <div className="page-width grid gap-10 py-12 md:grid-cols-[1fr_auto] md:items-end">
-        <div><a href="#top" className="flex items-center gap-3"><span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-to-br from-sun to-berry"><Sparkles size={18} /></span><span className="font-display text-lg font-bold">stacksmith<span className="text-sun">.</span></span></a><p className="mt-4 max-w-sm text-sm leading-6 text-slate-500">A little workspace for making better technology decisions, one tool at a time.</p></div>
-        <div className="flex items-center gap-4 text-slate-500"><a href="https://github.com" aria-label="GitHub" className="transition hover:text-white"><GitBranch size={18} /></a><a href="https://linkedin.com" aria-label="LinkedIn" className="transition hover:text-white"><BriefcaseBusiness size={18} /></a><span className="text-xs">Built for curious builders · 2025</span></div>
+    <footer id="about" className="site-footer"><div className="page-width footer-grid">
+        <div className="footer-brand"><a href="#top"><img src={logoText} alt="Dev Stack" /></a><p>Curated tools, technologies, and resources for developers building modern software.</p><div className="social-links"><a href="#github">GitHub</a><a href="#twitter">Twitter</a><a href="#linkedin">LinkedIn</a></div></div>
+        <div className="footer-column"><b>PRODUCT</b><a href="#top">Home</a><a href="#explore">Technologies</a><a href="#projects">Projects</a></div>
+        <div className="footer-column"><b>COMPANY</b><a href="#about">About</a><a href="#contact">Contact</a><a href="#careers">Careers</a></div>
+        <div className="footer-column"><b>LEGAL</b><a href="#privacy">Privacy Policy</a><a href="#terms">Terms of Service</a></div>
       </div>
+      <div className="page-width footer-bottom"><span>© 2026 DevStack. All rights reserved.</span><span>Privacy &nbsp;&nbsp; Terms</span></div>
     </footer>
   )
 }

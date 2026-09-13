@@ -6,4 +6,6 @@ export type Technology = {
   accent: string
   icon: string
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced'
+  badge: string
+  rating: string
 }
