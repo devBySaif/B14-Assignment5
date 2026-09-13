@@ -1,6 +1,7 @@
 # DevStack
 
-DevStack is a React and TypeScript web app for exploring modern developer tools and building your own personal technology stack. It shows a curated catalog of real-world tools with search and category filtering, and lets you add or remove tools from a live "Your Stack" panel with instant toast feedback.
+Dev Stack is a React and TypeScript web app for exploring modern developer tools and building your own personal technology stack. It shows a curated catalog of real-world tools and lets you add or remove tools from a live "Your Stack" panel with instant toast feedback.
+
 
 ## Technologies Used
 
