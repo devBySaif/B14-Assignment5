@@ -17,7 +17,7 @@ export function TechnologyCard({ technology, isSelected, onToggle }: TechnologyC
       </div>
       <div className="card-meta"><span>{technology.category}</span><span>{technology.difficulty === 'Beginner' ? 'Beginner-Friendly' : technology.difficulty}</span><span className="rating"><Star size={9} fill="currentColor" /> {technology.rating}</span>
       </div>
-      <button onClick={() => onToggle(technology)} className={`card-button ${isSelected ? 'selected' : ''}`}>
+      <button onClick={() => onToggle(technology)} disabled={isSelected} className={`card-button ${isSelected ? 'selected' : ''}`}>
         {isSelected ? <><Check size={13} /> Added to Stack</> : <><Plus size={13} /> Add to Stack</>}
       </button>
     </article>
