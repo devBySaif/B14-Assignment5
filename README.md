@@ -1,6 +1,6 @@
-# Stacksmith
+# DevStack
 
-Stacksmith is a React and TypeScript workspace for exploring modern developer tools and curating a personal technology stack. It presents a focused catalog of real tools with quick filtering and a live stack builder.
+DevStack is a React and TypeScript workspace for exploring modern developer tools and curating a personal technology stack. It presents a focused catalog of real tools with quick filtering and a live stack builder.
 
 ## Technologies Used
 
