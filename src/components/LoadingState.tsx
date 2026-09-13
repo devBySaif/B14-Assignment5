@@ -1,3 +1,3 @@
 export function LoadingState() {
-  return <div className="grid gap-4 sm:grid-cols-2"><div className="skeleton h-64 bg-white/10" /><div className="skeleton h-64 bg-white/10" /><div className="skeleton h-64 bg-white/10" /><div className="skeleton h-64 bg-white/10" /></div>
+  return <div className="loading-state" role="status" aria-live="polite"><span className="loading-spinner" aria-hidden="true" /><span>Loading technologies...</span></div>
 }
